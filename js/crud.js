@@ -8,12 +8,12 @@ const pengumuman = [
 ];
 
 function tampilkanPengumuman() {
-  var container = document.getElementById("daftarPengumuman");
+  let container = document.getElementById("daftarPengumuman");
   container.innerHTML = "";
 
-  for (var i = 0; i < pengumuman.length; i++) {
-    var p = pengumuman[i];
-    var div = document.createElement("div");
+  for (let i = 0; i < pengumuman.length; i++) {
+    let p = pengumuman[i];
+    let div = document.createElement("div");
     div.className = "kotak";
     div.innerHTML =
       "<h3>" + p.judul + "</h3>" +
@@ -26,9 +26,9 @@ function tampilkanPengumuman() {
 
 
 function tambahAcara() {
-  var judul = document.getElementById("inputJudul").value;
-  var deskripsi = document.getElementById("inputDeskripsi").value;
-  var tanggal = document.getElementById("inputTanggal").value;
+  let judul = document.getElementById("inputJudul").value;
+  let deskripsi = document.getElementById("inputDeskripsi").value;
+  let tanggal = document.getElementById("inputTanggal").value;
 
   pengumuman.push({
     id: Math.floor(Math.random() * 90000 + 10000),
