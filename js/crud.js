@@ -1,4 +1,3 @@
-// Array data pengumuman (hardcoded dulu)
 const pengumuman = [
   {
     id: 11001,
