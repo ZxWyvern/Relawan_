@@ -1,29 +1,78 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Relawan_</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/landing-page.css">
+    <title>Document</title>
 </head>
 <body>
+    <!-- HEADING -->
+    <div>
+        <img src="/Assets/img/Relawan-Clean-The-City.jpg" alt="" class="img-banner"> <!-- Banner IMAGE -->
+        <div> <!--  PENJELASAN -->
+            <h1 class="judul">RelawanBisa</h1>
+            <h2 class="headline">Jadilah Bagian dari Perubahan, Bukan Sekadar Penonton!</h2>
+            <p class="info">Kami adalah platform yang mempertemukan orang-orang berjiwa <br>
+                sosial sepertimu dengan berbagai organisasi yang membutuhkan bantuan. <br>
+                Cukup buka website kami, pilih isu yang kamu pedulikan (Lingkungan, Pendidikan, atau Kesehatan), <br>
+                dan daftar dalam hitungan menit!</p>
+        </div>
+    </div>
 
-  <h1>Relawan_</h1>
-  <p></p>
 
-  <hr>
+    <!-- MAIN -->
+    <div>
+        <h2 class="judul">Kenapa Harus Relawan?</h2>
+        <p class="info">Menjadi relawan bukan hanya tentang memberikan waktu dan tenaga, tetapi juga tentang merasakan kepuasan batin yang luar biasa. <br>
+            Dengan bergabung sebagai relawan, kamu akan merasakan kebahagiaan yang datang dari membantu orang lain dan membuat perbedaan positif di dunia. <br>
+            Setiap tindakan kecil yang kamu lakukan sebagai relawan dapat memberikan dampak besar bagi mereka yang membutuhkan. <br>
+            Jadi, jangan ragu untuk menjadi bagian dari perubahan dan rasakan kebahagiaan sejati melalui relawan!</p>
+        
+            <div class="button">
+                <a href="CRUD.html"><button class="btn">Jadilah Relawan</button></a>
+            </div>
+            <div class="button">
+                <a href="CRUD.html"><button class="btn">Butuh Relawan?</button></a>
+            </div>
+    </div>
 
-  <h2>Tambah Acara Baru</h2>
-  <div id="formTambah">
-    <input type="text" id="inputJudul" placeholder="Judul acara"><br><br>
-    <input type="text" id="inputDeskripsi" placeholder="Deskripsi acara"><br><br>
-    <input type="date" id="inputTanggal"><br><br>
-    <button onclick="tambahAcara()">Tambah Acara</button>
-  </div>
 
-  <hr>
-  <h2>Daftar Pengumuman</h2>
-  <div id="daftarPengumuman"></div>
 
-  <script src="js/crud.js"></script>
+    <!-- Foto -->
+    <div> 
+        <h2 class="judul-foto" >Foto foto Para Relawan</h2>
+        <div class="foto-container">
+        <img src="/Assets/img/Relawan-Clean-The-City.jpg" alt="">
+        <img src="/Assets/img/Relawan-Clean-The-City.jpg" alt="">
+        <img src="/Assets/img/Relawan-Clean-The-City.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!-- Rekomendasi Acara Yang Membutuhkan Relawan-->
+    <div class="rekomendasi">
+        <h2 class="judul">Rekomendasi Acara Yang Membutuhkan Relawan</h2>
+        <div class="card">
+            <img src="/Assets/img/Relawan-Clean-The-City.jpg" alt="" class="img-card">
+            <h3>Acara Bersih Pantai</h3>
+            <p>Acara ini bertujuan untuk membersihkan pantai dari sampah dan menjaga kelestarian lingkungan laut.</p>
+        </div>
+        <div class="card">
+            <img src="/Assets/img/Relawan-Clean-The-City.jpg" alt="" class="img-card">
+            <h3>Acara Donor Darah</h3>
+            <p>Acara ini bertujuan untuk mengumpulkan darah untuk membantu pasien yang membutuhkan transfusi darah.</p>
+        </div>
+        <div class="card">
+            <img src="/Assets/img/Relawan-Clean-The-City.jpg" alt="" class="img-card">
+            <h3>Acara Penggalangan Dana</h3>
+            <p>Acara ini bertujuan untuk mengumpulkan dana untuk membantu korban bencana alam atau mereka yang membutuhkan bantuan finansial.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="hubungi.html">HUBUNGI KAMI</a>
+    </div>
 </body>
 </html>
