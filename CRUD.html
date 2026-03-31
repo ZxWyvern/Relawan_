@@ -8,11 +8,10 @@
 <body>
 
   <h1>Relawan_</h1>
-  <p></p>
-
-  <hr>
-
+  <p>Platform untuk menghubungkan relawan dengan kegiatan sosial.</p>
   <h2>Tambah Acara Baru</h2>
+
+
   <div id="formTambah">
     <input type="text" id="inputJudul" placeholder="Judul acara"><br><br>
     <input type="text" id="inputDeskripsi" placeholder="Deskripsi acara"><br><br>
@@ -20,9 +19,23 @@
     <button onclick="tambahAcara()">Tambah Acara</button>
   </div>
 
-  <hr>
+
   <h2>Daftar Pengumuman</h2>
-  <div id="daftarPengumuman"></div>
+
+  
+  <div id="daftarPengumuman">
+    <template id="templateKartu">
+      <div class="kotak">
+        <span class="jumlah-daftar"></span>
+        <h3 class="kartu-judul"></h3>
+        <p class="kartu-id"></p>
+        <p class="kartu-deskripsi"></p>
+        <p class="kartu-tanggal"></p>
+        <button class="btn-daftar">Daftar & Jadi Relawan</button>
+        <button class="btn-hapus">Hapus Acara</button>
+      </div>
+    </template>
+  </div>
 
   <script src="js/crud.js"></script>
 </body>
