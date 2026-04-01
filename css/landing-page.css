@@ -38,6 +38,7 @@ a {
     color: #555555;
     line-height: 1.8;
     margin-bottom: 20px;
+    font-size: large;
 }
 
 
@@ -48,7 +49,7 @@ a {
 }
 
 img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .btn {
@@ -76,6 +77,7 @@ img:hover {
 .foto-container img {
     width: 30%;
     height: 200px;
+    object-fit: cover;
     margin: 5px;
     border-radius: 6px;
 }
@@ -138,8 +140,26 @@ img:hover {
 }
 
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #333333;
+    padding: 10px 0;
+}
+
+.nav-container li a:hover {
+    background-color: #555555;
 }
