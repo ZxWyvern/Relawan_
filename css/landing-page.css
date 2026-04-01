@@ -76,7 +76,6 @@ img:hover {
 .foto-container img {
     width: 30%;
     height: 200px;
-    object-fit: cover;
     margin: 5px;
     border-radius: 6px;
 }
@@ -136,4 +135,11 @@ img:hover {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
