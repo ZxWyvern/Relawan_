@@ -5,27 +5,28 @@ body {
     margin: 0;
 }
 
-nav {
-    background-color: #333333;
-    width: 100%;
-    padding: 15px 0;
-}
-
 .nav-container {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    position: fixed;
 }
 
 .nav-container li a {
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 10px;
     text-transform: uppercase;
-    color: #ffffff;
-    padding: 8px 15px;
-    transition: 0.3s;
+    color: #000000;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.nav-container li a:hover {
+    background-color: #e0e0e0;
 }
 
 .container {
