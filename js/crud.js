@@ -21,9 +21,9 @@ function tambahAcara() {
 
   tampilkanPengumuman();
 
-  document.getElementById("inputJudul") = "";
-  document.getElementById("inputDeskripsi") = "";
-  document.getElementById("inputTanggal") = "";
+  document.getElementById("inputJudul").value = "";
+  document.getElementById("inputDeskripsi").value = "";
+  document.getElementById("inputTanggal").value = "";
 }
 
 
