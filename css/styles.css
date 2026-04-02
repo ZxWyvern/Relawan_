@@ -1,89 +1,54 @@
-/* 1. Pengaturan Dasar Halaman */
 body {
-  font-family: sans-serif;
-  background-color: #f4f7f6; /* Warna abu-abu sangat muda */
-  color: #333;
-  padding: 40px;
-  line-height: 1.6;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
 }
 
-/* 2. Mengatur Judul */
 h1 {
   color: #2c3e50;
   text-align: center;
 }
 
 p {
-  text-align: center;
+  text-align: left;
   color: #7f8c8d;
 }
 
 h2 {
-  border-bottom: 2px solid #3498db;
   padding-bottom: 10px;
   margin-top: 40px;
   color: #2980b9;
+  text-align: center;
 }
 
-/* 3. Mengatur Form Tambah Acara */
 #formTambah {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 50px;
   max-width: 500px;
-  margin: 0 auto; /* Supaya form di tengah */
+  margin: 0 auto;
 }
 
 input {
   width: 100%;
   padding: 10px;
-  margin-bottom: 5px; /* Jarak antar input */
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  display: block;
+
 }
 
-/* 4. Mengatur Tombol Tambah */
-#formTambah button {
-  width: 100%;
-  padding: 12px;
-  background-color: #3498db;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-}
+
 
 #formTambah button:hover {
   background-color: #2980b9;
 }
 
-/* 5. Mengatur Tampilan Kartu Pengumuman */
-.kotak {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 8px;
-  border-left: 5px solid #2ecc71; /* Garis hijau di samping */
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
 
-.kartu-judul {
-  margin: 0;
-  color: #2c3e50;
-}
 
 .kartu-tanggal {
   font-size: 0.9em;
-  color: #e67e22;
+  color: #000000;
   font-weight: bold;
 }
 
-/* 6. Mengatur Tombol di dalam Kartu */
 .btn-daftar {
-  background-color: #2ecc71;
   color: white;
   padding: 8px 15px;
   border: none;
@@ -93,7 +58,6 @@ input {
 }
 
 .btn-hapus {
-  background-color: #e74c3c;
   color: white;
   padding: 8px 15px;
   border: none;
@@ -103,3 +67,10 @@ input {
 
 .btn-daftar:hover { background-color: #27ae60; }
 .btn-hapus:hover { background-color: #c0392b; }
+
+#info-head {
+  text-align: center;
+  color: #34495e;
+  font-size: 18px;
+  margin-top: -10px;
+}
