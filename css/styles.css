@@ -39,10 +39,6 @@ input {
   background-color: #2980b9;
 }
 
-#templateKartu {
-  display: none;
-}
-
 .kartu-tanggal {
   font-size: 0.9em;
   color: #000000;
