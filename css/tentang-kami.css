@@ -1,0 +1,254 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.tentang-page {
+    padding-top: 52px;
+    min-height: 900px;
+    box-sizing: border-box;
+}
+
+.tentang {
+    text-align: center;
+    padding: 48px 24px 40px;
+    background: linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%);
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.tentang-judul {
+    font-size: 32px;
+    margin: 0 0 12px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.tentang-lead {
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555555;
+}
+
+.tentang-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: 700px;
+}
+
+.tentang-highlight {
+    background: #2c3e50;
+    color: #ffffff;
+    padding: 40px 36px;
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.tentang-highlight h2 {
+    margin: 0 0 16px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+
+.tentang-quote {
+    margin: 0 0 28px;
+    font-size: 17px;
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.92);
+    font-style: italic;
+}
+
+.tentang-stats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 24px;
+}
+
+.tentang-stats li {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.tentang-stats li:last-child {
+    margin-bottom: 0;
+}
+
+.stat-angka {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5dade2;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.tentang-konten {
+    flex: 1.6 1 400px;
+    padding: 40px 36px 48px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.tentang-blok {
+    margin-bottom: 32px;
+}
+
+.tentang-blok:last-of-type {
+    margin-bottom: 0;
+}
+
+.tentang-blok h2,
+.tentang-nilai h2 {
+    margin: 0 0 14px;
+    font-size: 20px;
+    color: #2980b9;
+    text-align: left;
+}
+
+.tentang-blok p {
+    margin: 0 0 12px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #555555;
+    text-align: left;
+}
+
+.tentang-blok p:last-child {
+    margin-bottom: 0;
+}
+
+.tentang-nilai {
+    margin-top: 36px;
+    padding-top: 28px;
+    border-top: 1px solid #eeeeee;
+}
+
+.nilai-grid {
+    display: grid;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.nilai-kartu {
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.2s ease;
+}
+
+.nilai-kartu:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.nilai-kartu h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.nilai-kartu p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #666666;
+}
+
+.tentang-cta-teks {
+    margin: 36px 0 16px;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.tentang-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-tentang {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #2c3e50;
+    background-color: #2c3e50;
+    color: #ffffff;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-tentang:hover {
+    background-color: #1a252f;
+    border-color: #1a252f;
+}
+
+.btn-tentang-outline {
+    background-color: transparent;
+    color: #2c3e50;
+}
+
+.btn-tentang-outline:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.nav-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.nav-container li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.nav-container li a:hover {
+    background-color: #e0e0e0;
+}
+
+
+@media (max-width: 768px) {
+    .tentang-hero {
+        padding: 32px 16px 28px;
+    }
+
+    .tentang-judul {
+        font-size: 26px;
+    }
+
+    .tentang-highlight,
+    .tentang-konten {
+        padding: 28px 20px;
+    }
+}
