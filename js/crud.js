@@ -6,22 +6,6 @@ const pengumuman = [
       "Aksi kolektif membersihkan sampah di bibir pantai, pemilahan organik-anorganik, dan edukasi singkat tentang dampak plastik di laut. Peserta membawa botol minum pribadi; perlengkapan sarung tangan dan kantong disediakan panitia.",
     tanggal: new Date("2026-05-17"),
     jumlahDaftar: 24
-  },
-  {
-    id: 50288,
-    judul: "Donor Darah Sukarela — PMI Kota",
-    deskripsi:
-      "Kerja sama dengan PMI untuk donor darah. Syarat: usia 17–60 tahun, tidur cukup, dan belum minum obat tertentu. Daftar di lokasi atau lewat relawan pendamping; snack dan sertifikat untuk donor.",
-    tanggal: new Date("2026-06-08"),
-    jumlahDaftar: 41
-  },
-  {
-    id: 50301,
-    judul: "Mengajar Matematika Dasar — RPTRA",
-    deskripsi:
-      "Belajar bareng anak-anak sekitar RPTRA (2 jam per sesi): berhitung, permainan edukatif, dan cerita motivasi. Cocok untuk relawan yang sabar dan suka anak; materi modul dari koordinator.",
-    tanggal: new Date("2026-04-26"),
-    jumlahDaftar: 7
   }
 ];
 
